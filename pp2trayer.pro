@@ -41,9 +41,9 @@ osx {
 
 win32 {
 	RC_ICONS = icons/pp2.ico
-	LIBS += "C:\libusb\MinGW32\static\libusb-1.0.a"
-	INCLUDEPATH += "C:\libusb\include\libusb-1.0"
-	INCLUDEPATH += "C:\mingw32\include"
+        LIBS += "C:\msys64\mingw32\lib\libusb-1.0.a"
+        INCLUDEPATH += "C:\msys64\mingw32\include\libusb-1.0"
+        INCLUDEPATH += "C:\msys64\mingw32\include"
 }
 
 unix {
