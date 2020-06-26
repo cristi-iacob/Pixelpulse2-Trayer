@@ -36,4 +36,5 @@ after_build:
 cache:
  - distrib.zip -> pp2trayer.pro
  - c:\msys.zip -> appveyor.yml
+ - C:\msys64
  
